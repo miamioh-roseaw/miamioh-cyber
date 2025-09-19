@@ -13,7 +13,7 @@ app = Flask(__name__)
 app.secret_key = 'your-secret-key-change-this'
 
 # Configuration
-GNS3_SERVER_URL = 'http://localhost:3080'  # Default GNS3 server URL
+GNS3_SERVER_URL = 'http://10.48.229.210:80'  # Default GNS3 server URL
 GNS3_API_BASE = f'{GNS3_SERVER_URL}/v2'
 
 # Flask-Login setup
